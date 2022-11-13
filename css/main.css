@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Nunito+Sans:wght@600;800&family=Raleway:wght@300&family=Roboto:wght@500;700&family=Source+Serif+Pro:wght@600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 1110px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right:auto;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ 
+}
+.header{
+    padding-top: 23px;
+    padding-bottom: 24px;
+ background-color: #ffffff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.0562443);
+}
+
+.link{
+    text-decoration: none;
+}
+.header_quetion_title{
+
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 33px;
+color: #111517;
+
+}
+.dark-mode_title{
+    font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+color: #111517;
+}
+.header_dark-mode{
+    display: flex;
+    align-items: center;
+    
+  
+}
+.dark-mode_icon{
+    margin-right: 10px;
+    background: #FFFFFF;
+
+
+}
