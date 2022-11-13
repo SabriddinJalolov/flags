@@ -9,52 +9,80 @@
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
-  margin-right:auto;
+  margin-right: auto;
 }
 .wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
- 
 }
-.header{
-    padding-top: 23px;
-    padding-bottom: 24px;
- background-color: #ffffff;
+.header {
+  padding-top: 23px;
+  padding-bottom: 24px;
+  background-color: #ffffff;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.0562443);
 }
 
-.link{
-    text-decoration: none;
+.link {
+  text-decoration: none;
 }
-.header_quetion_title{
-
-
-font-family: 'Nunito Sans';
-font-style: normal;
-font-weight: 800;
-font-size: 24px;
-line-height: 33px;
-color: #111517;
-
+.header_quetion_title {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 33px;
+  color: #111517;
 }
-.dark-mode_title{
-    font-family: 'Nunito Sans';
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 22px;
-color: #111517;
+.dark-mode_title {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #111517;
 }
-.header_dark-mode{
-    display: flex;
-    align-items: center;
-    
-  
+.header_dark-mode {
+  display: flex;
+  align-items: center;
 }
-.dark-mode_icon{
-    margin-right: 10px;
-    background: #FFFFFF;
+.dark-mode_icon {
+  margin-right: 10px;
+  background: #ffffff;
+}
 
+.form-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.input-search {
+  background-color: #fff;
+  background-image: url(../image/search.svg);
+  background-repeat: no-repeat;
+  background-position: 32px 19px;
+  box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.0532439);
+  border-radius: 5px;
+  width: 480px;
+  border: none;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-left: 74px;
+  margin: 0;
+}
 
+.select {
+  width: 200px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  background: #ffffff;
+  box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.0532439);
+  border-radius: 5px;
+  border: none;
+}
+.fitter-by_region{
+    padding-top: 48px;
+    padding-bottom: 45px;
+
+    background: #F2F2F2;
 }

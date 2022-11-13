@@ -1,33 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>flag</title>
-    <link rel="stylesheet" href="./css/main.css">
-    <link rel="website icon" type="png" href="./image/uzb_t.jpg">
-</head>
-<body>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="website icon" type="png" href="./image/uzb_t.jpg" />
+  </head>
+  <body>
     <header class="header">
-        <div class="container">
+      <div class="container">
         <div class="wrapper">
-                <div class="header_quetion">
-                    <a class="link" href="./index.html">
-                    <h1 class="header_quetion_title">
-                        Where in the world?
-                    </h1>
-                    </a>
-                </div>
-                <div class="header_dark-mode">
-                    <img class="dark-mode_icon" src="./image/oy.png" alt="oy">
-                    <p class="dark-mode_title" >Dark Mode</p>
-                </div>
-
-            </div>
+          <div class="header_quetion">
+            <a class="link" href="./index.html">
+              <h1 class="header_quetion_title">Where in the world?</h1>
+            </a>
+          </div>
+          <div class="header_dark-mode">
+            <img class="dark-mode_icon" src="./image/oy.png" alt="oy" />
+            <p class="dark-mode_title">Dark Mode</p>
+          </div>
         </div>
+      </div>
     </header>
-
-    
-</body>
+    <main class="main">
+      <section class="fitter-by_region">
+        <div class="container">
+          <form action="https://echo.htmlacademy.ru/courses" method="get">
+            <div class="form-box">
+              <input
+                class="input-search"
+                type="search"
+                aria-label="qidiruv"
+                placeholder="Search for a country…"
+                name="search"
+              />
+              <select
+                class="select"
+                name="country"
+                id=""
+                aria-label="qitani tanlang"
+              >
+                <option disabled selected hidden>Filter by Region</option>
+                <option value="africa">Africa</option>
+                <option value="america">America</option>
+                <option value="asia">Asia</option>
+                <option value="europe">Europe</option>
+                <option value="oceania">Oceania</option>
+              </select>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
