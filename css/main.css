@@ -4,8 +4,11 @@
   margin: 0;
   box-sizing: border-box;
 }
+a{
+  text-decoration: none;
+}
 .container {
-  width: 1110px;
+  width: 1245px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -80,9 +83,56 @@
   border-radius: 5px;
   border: none;
 }
-.fitter-by_region{
-    padding-top: 48px;
-    padding-bottom: 45px;
+.fitter-by_region {
+  padding-top: 48px;
+  padding-bottom: 45px;
 
-    background: #F2F2F2;
+  background: #f2f2f2;
+}
+
+.country_flags {
+  background: #f2f2f2;
+}
+.flag_germany_img {
+  border-radius: 5px 5px 0 0;
+}
+
+.flag_germany {
+  width: 264px;
+  height: 336px;
+  margin-bottom: 67px;
+  background: #ffffff;
+  box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.0294384);
+  border-radius: 5px;
+}
+
+.germaniya_title {
+  padding-top: 24px;
+  padding-left: 24px;
+  padding-bottom: 16px;
+  font-family: 300;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 26px;
+  color: #111517;
+}
+.population {
+  font-family: 600;
+  padding-left: 24px;
+
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  color: #111517;
+}
+.germany_desc{
+  padding-bottom: 8px;
+}
+
+.section_wrapper{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
 }
