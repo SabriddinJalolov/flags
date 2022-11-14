@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Nunito+Sans:wght@600;800&family=Raleway:wght@300&family=Roboto:wght@500;700&family=Source+Serif+Pro:wght@600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 1245px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header {
+  padding-top: 23px;
+  padding-bottom: 24px;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.0562443);
+}
+
+.link {
+  text-decoration: none;
+}
+.header_quetion_title {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 33px;
+  color: #111517;
+}
+.dark-mode_title {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #111517;
+}
+.header_dark-mode {
+  display: flex;
+  align-items: center;
+}
+.dark-mode_icon {
+  margin-right: 10px;
+  background: #ffffff;
+}
+
+
+
+.site-artikle {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 32px;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #111517;
+}
+
+.basck-knopki {
+  width: 136px;
+  height: 40px;
+  margin-top: 80px;
+  margin-left: 80px;
+  background: #ffffff;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.293139);
+  border-radius: 6px;
+}
+
+.artikle-title{
+    padding-left: 10px;
+}
+.belgium_img{
+    
+    border-radius: 5px;
+}
+
+
+.belgium {
+    margin-top: 80px;
+  padding-bottom: 23px;
+  padding-left: 143px;
+ 
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 32px;
+line-height: 44px;
+/* identical to box height */
+
+
+color: #111517;
+}
+.population {
+  font-family: 600;
+  padding-left: 24px;
+
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 16px;
+  color: #111517;
+}
+.germany_desc{
+  padding-bottom: 14px;
+  margin-left: 120px;
+  font-size: 16px;
+}
+.section_wrapper{
+    display: flex;
+    margin-top: 80px;
+    
+}
+.flag_desc{
+    margin-top: 126px;
+}
+
+/*button vrapper*/
+.button_wrapper{
+  display: flex;
+
+  
+}
+.france{
+  width: 116px;
+  height: 28px;
+margin-left: 10px;
+background: #c82c2c;
+box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.104931);
+border-radius: 2px;
+}
+.button{
+ 
+   padding-left: 143px;
+}
